@@ -21,3 +21,4 @@
 2. Поработать над плавным переходом с одного экрана на другой
 3. Работать над javascript
 
+Ссылка на проект: dmitriyerlih.github.io/MestoErlihDmitry/

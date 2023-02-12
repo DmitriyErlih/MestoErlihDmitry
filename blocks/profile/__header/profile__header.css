@@ -8,19 +8,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 294px;
 }
-
-@media screen and (max-width: 760px) {
-  .profile__header {
-    margin: 27px 0 0 0;
-    text-align: center;
-  }
-}
-
 
 @media screen and (max-width: 460px) {
   .profile__header {
     font-size: 27px;
     line-height: 32px;
+    max-width: 189px;
   }
 }

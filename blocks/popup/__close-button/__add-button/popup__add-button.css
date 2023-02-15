@@ -1,0 +1,26 @@
+.popup__add-button {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    background: url("../../../../images/add-icon (2).svg") no-repeat center center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .popup__add-button:hover {
+    opacity: 0.6;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .popup__add-button {
+      width: 20px;
+      height: 20px;
+      right: 0;
+      top: -36px;
+    }
+  }

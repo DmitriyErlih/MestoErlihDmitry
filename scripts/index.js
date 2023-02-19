@@ -108,7 +108,6 @@ const addCards = (titleValue, linkValue) => {
     popupImage.src = linkValue;
     popupImage.alt = titleValue;
     popupFigcaption.textContent = titleValue;
-    //открытие попапа
     openPopup(popupOpenImage);
   });
 

@@ -11,8 +11,6 @@ const profileForm = document.forms["poputEdit"];
 let formName = profileForm.querySelector(".form__input_type_name");
 let formJob = profileForm.querySelector(".form__input_type_job");
 
-
-
 let popupAddProfile = document.querySelector(".popup__card");
 const openPopupButtonAddingCard = document.querySelector(".profile__add-button");
 
@@ -59,8 +57,6 @@ profileCloseButton.forEach((button) => {
   const popup = button.closest('.popup');
   button.addEventListener('click', () => closePopup(popup));
 });
-
-
 
 const initialCards = [
   {
